@@ -7,7 +7,7 @@
   text-decoration: none;
   border: none;
   outline: none;
-  font-family: "Courier New", monospace;text
+  font-family: "Courier New", monospace;
 }
 
 html {
@@ -192,8 +192,7 @@ span {
   color: #0b0e13;
   box-shadow: 0 0 25px #9fadc6;
 }
-h3
-.typing-text {
+h3 .typing-text {
   display: inline-block;
   font-size: 34px;
   font-weight: 600;
