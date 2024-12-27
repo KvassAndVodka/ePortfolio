@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
   text-decoration: none;
   border: none;
   outline: none;
-  font-family: "Courier New", monospace;
+  font-family: "Roboto Mono", serif;
 }
 
 html {
@@ -50,7 +50,7 @@ header {
 }
 
 .terminal {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Mono", serif;
   font-size: 1.5rem;
 }
 
@@ -115,7 +115,15 @@ section {
   background-color: #0b0e13;
 }
 
-.home .home-content h1 {
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  background-color: #0b0e13;
+}
+
+.home .home-container .home-content h1 {
   font-size: 6rem;
   font-weight: 700;
   line-height: 1.3;
@@ -463,14 +471,29 @@ h3 .typing-text {
   }
 }
 
+@media (min-width: 1080px) {
+  .home-container {
+    max-width: 65vw;
+  }
+}
+
 @media (max-width: 1000px) {
   .home {
+    gap: 4rem;
+  }
+
+  .home-container {
     gap: 4rem;
   }
 }
 
 @media (max-width: 995px) {
   .home {
+    flex-direction: column;
+    margin: 5rem 4rem;
+  }
+
+  .home-container {
     flex-direction: column;
     margin: 5rem 4rem;
   }
