@@ -628,6 +628,105 @@ h3 .typing-text {
   visibility: visible;
 }
 
+.contact {
+  background-color: #0b0e13; /* Matching dark background */
+  color: white; /* White text color */
+  padding: 5rem 9%; /* Adjust padding to fit your layout */
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  font-size: 3.5rem;
+  color: #9fadc6; /* Accent color for headings */
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 1.6rem;
+  color: #9fadc6; /* Accent color for labels */
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  background-color: #161616; /* Dark input background */
+  color: white;
+  border: 1px solid #9fadc6; /* Border with accent color */
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #60759f; /* Focus effect with a lighter accent color */
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 200px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: #0b0e13;
+  border-radius: 4rem;
+  font-size: 1.6rem;
+  color: #9fadc6;
+  letter-spacing: 0.3rem;
+  font-weight: 600;
+  border: 2px solid #9fadc6;
+  transition: 0.3s ease;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.btn:hover {
+  transform: scale3d(1.03);
+  background-color: #9fadc6;
+  color: #0b0e13;
+  box-shadow: 0 0 25px #9fadc6;
+}
+
+@media (max-width: 995px) {
+  .contact h2 {
+    font-size: 2.5rem;
+  }
+
+  .contact-form {
+    gap: 1.5rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 1.4rem;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+  }
+}
+
 @media (min-width: 1080px) {
   .home-container {
     max-width: 65vw;
