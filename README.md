@@ -1,6 +1,4 @@
-Here is a detailed README file for your GitHub repository:
-
-**Project Name:** KvassAndVodka
+**Project Name:** ePortfolio
 **Description:** A personal website showcasing projects and skills, built with HTML, CSS, and JavaScript.
 
 **Table of Contents:**
