@@ -1,5 +1,4 @@
-# My ePortfolio  
-
+# My ePortfolio
 
 ![image](https://github.com/user-attachments/assets/4b6fe0c6-04a7-4a0d-9baf-c6b9f61b8a6f)
 
@@ -19,7 +18,6 @@ My personal website showcasing projects and skills, built with HTML, CSS, and Ja
 
 - Font Awesome (for icons)
 - Google Fonts (for typography)
-- Swiper (for carousel functionality)
 - Socket.io (for real-time chat functionality in SocketChat project)
 
 **Project Structure:**
@@ -37,19 +35,16 @@ The project consists of the following files and directories:
 - Interactive project cards with hover effects and modal windows
 - Contact form with email validation and submission handling
 - Social media links to GitHub, Facebook, and Instagram
-- Real-time chat functionality in the SocketChat project using Socket.io
 
 **Installation and Setup:**
 
 1. Clone the repository to your local machine using `git clone https://github.com/KvassAndVodka/KvassAndVodka.git`
 2. Open the `index.html` file in a web browser to view the website
-3. To use the SocketChat project, navigate to the `SocketChat` directory and run `node server.js` to start the server
 
 **Usage:**
 
 - View the website by opening `index.html` in a web browser
 - Interact with the project cards and contact form to test their functionality
-- Use the SocketChat project by navigating to the `SocketChat` directory and running `node server.js`
 
 **Contributing:**
 
