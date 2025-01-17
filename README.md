@@ -2,7 +2,8 @@
 
 ![image](https://github.com/user-attachments/assets/4b6fe0c6-04a7-4a0d-9baf-c6b9f61b8a6f)
 
-My personal website showcasing projects and skills, built with HTML, CSS, and JavaScript.
+
+My [personal website](https://kvassandvodka.github.io/ePortfolio/) showcasing projects and skills, built with HTML, CSS, and JavaScript hosted using Github Pages.
 
 **Table of Contents:**
 
